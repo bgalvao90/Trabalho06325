@@ -9,16 +9,19 @@ class URI
         int ValorEntrada = int.Parse(Console.ReadLine());
 
         int impar = 1;
-
-        do
+        
+        for (int i = 0; i < ValorEntrada;i++)
         {
-            Console.WriteLine(impar);
-            impar = impar + 2;
+
+            if (i % 2 != 0 && i < 1000)
+            {
+                Console.WriteLine(i);
+                
+            }
+            
 
         }
-        while (impar <= ValorEntrada);
-        Console.Read();
-
+       
     }
 
 }
