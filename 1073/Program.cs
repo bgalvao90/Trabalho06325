@@ -7,7 +7,7 @@ for  (int i = 1; i <= n; i++)
     {
         
         int n2 = i * i;
-        Console.WriteLine($"{i} ^ 2 = {n2}");
+        Console.WriteLine($"{i}^2 = {n2}");
        
     }
 }
