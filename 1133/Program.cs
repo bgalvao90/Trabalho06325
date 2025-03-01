@@ -6,7 +6,7 @@ int fim = Math.Max(x, y);
 
 for (int i = inicio; i < fim; i++)
 {
-    if (i % 5 == 2 || i % 5 == 3)
+    if (i % 5 == 2 || i % 5 == 3 && i >= 0)
     {
         Console.WriteLine(i);
     }
